@@ -1,0 +1,11 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    ::selection {
+        background-color: #ffcd12;
+    }
+    font-weight: bolder;
+  }
