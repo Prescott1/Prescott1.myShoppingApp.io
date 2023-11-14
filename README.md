@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Prescott1.myShoppingApp.io
+This is a react web app that I create as a personal project. I'm working on developing a deeper understanding of how to create API request and improve my overall skills as inspiring developer.  
+This project is a React-based web application showcasing a product catalog with the ability to view product details and add items to a shopping cart. It also features a dynamic component that fetches and displays a random cat GIF filtered by the 'orange' tag using the [Cat as a Service API](https://cataas.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **Product Details**: View details of products including images, names, and prices.
+- **Add to Cart**: Ability to add products to a shopping cart stored in memory.
+- **Cat GIF**: Fetch and display a random orange cat GIF.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To run this project, you will need to have Node.js and npm installed on your system. If you don't have them installed, you can download them from [Node.js official website](https://nodejs.org/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once Node.js and npm are installed, you can clone the project and install its dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/your-username/my-react-app.git
+cd my-react-app
+npm install
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources that I used to help me create this project are:
+1.) https://react.dev/
+2.) https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
+3.) https://www.w3schools.com/REACT/DEFAULT.ASP
+4.) https://react-bootstrap.netlify.app/docs/components/cards/
+5.) Google
+6.) https://cataas.com/
+7.) https://mermaid.js.org/intro/
+8.) https://www.cat.com/en_US/products/new/equipment/drills.html
+## Flowcart structure for this React App is:
+  flowchart TD
+     A[Start Application] --> B{ProductDetail Component}
+     B --> C[Display Product Info]
+     B --> D[Add to Cart Button]
+     D --> E{Cart Component}
+     E --> F[Display Cart Items]
+     E --> G[Empty Cart Message]
+     B --> H[CatGif Component]
+     H --> I[Fetch Cat GIF Button]
+     I --> J[Display Cat GIF]
+  
+     style A fill:#f9f,stroke:#333,stroke-width:4px
+     style B fill:#bbf,stroke:#f66,stroke-width:2px
+     style E fill:#bbf,stroke:#f66,stroke-width:2px
+     style H fill:#bbf,stroke:#f66,stroke-width:2px
+     style I fill:#bbf,stroke:#f66,stroke-width:2px
