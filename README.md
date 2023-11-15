@@ -6,6 +6,7 @@ This project is a React-based web application showcasing a product catalog with 
 
 - **Product Details**: View details of products including images, names, and prices.
 - **Add to Cart**: Ability to add products to a shopping cart stored in memory.
+- **CartTotal**: Displays the total of all iteams within the cart.
 - **Cat GIF**: Fetch and display a random orange cat GIF.
 
 ## Installation
