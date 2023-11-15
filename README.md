@@ -15,21 +15,24 @@ To run this project, you will need to have Node.js and npm installed on your sys
 
 Once Node.js and npm are installed, you can clone the project and install its dependencies.
 
-```bash
+```sh
 git clone https://github.com/your-username/my-react-app.git
 cd my-react-app
 npm install
+```
 
 ## Resources that I used to help me create this project are:
-1.) https://react.dev/
-2.) https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
-3.) https://www.w3schools.com/REACT/DEFAULT.ASP
-4.) https://react-bootstrap.netlify.app/docs/components/cards/
-5.) Google
-6.) https://cataas.com/
-7.) https://mermaid.js.org/intro/
-8.) https://www.cat.com/en_US/products/new/equipment/drills.html
+1) https://react.dev/
+2) [Mozilla: Getting started with React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+3) https://www.w3schools.com/REACT/DEFAULT.ASP
+4) https://react-bootstrap.netlify.app/docs/components/cards/
+5) [Google](https://www.google.com)
+6) https://cataas.com/
+7) https://mermaid.js.org/intro/
+8) https://www.cat.com/en_US/products/new/equipment/drills.html
+
 ## Flowcart structure for this React App is:
+```
   flowchart TD
      A[Start Application] --> B{ProductDetail Component}
      B --> C[Display Product Info]
@@ -46,3 +49,4 @@ npm install
      style E fill:#bbf,stroke:#f66,stroke-width:2px
      style H fill:#bbf,stroke:#f66,stroke-width:2px
      style I fill:#bbf,stroke:#f66,stroke-width:2px
+```
