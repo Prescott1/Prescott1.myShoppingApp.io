@@ -22,7 +22,7 @@
 //   );
 // }
 
-// This is the new structure I created for this component. I went with React Bootstrap for my overall CSS styling. 
+// This is the new structure I created for this component. I went with React Bootstrap for my overall CSS styling.
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Spinner from "react-bootstrap/Spinner";
