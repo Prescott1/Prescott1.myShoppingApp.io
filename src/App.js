@@ -14,7 +14,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="justify-content-center container">
       <ProductDetail
         productModel={productData.productModel}
         onAddToCart={addToCart}

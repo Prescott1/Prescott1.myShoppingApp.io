@@ -46,6 +46,7 @@ function CatGif() {
       setIsLoading(false);
     }
   };
+  
 
   return (
     <div className="text-center my-3 card-container">
