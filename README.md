@@ -16,7 +16,7 @@ To run this project, you will need to have Node.js and npm installed on your sys
 Once Node.js and npm are installed, you can clone the project and install its dependencies.
 
 ```sh
-git clone https://github.com/Prescott1/my-react-app.git
+git clone https://github.com/Prescott1/myShoppingApp.io.git
 cd my-react-app
 npm install
 ```
