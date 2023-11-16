@@ -33,22 +33,20 @@ npm install
 
 ## Flowcart structure for this React App is:
 ```mermaid
-  flowchart TD
-     A[Start Application] --> B{ProductDetail Component}
-     B --> C[Display Product Info]
-     B --> D[Add to Cart Button]
-     D --> E{Cart Component}
-     E --> F[Display Cart Items]
-     E --> G[Empty Cart Message]
-     B --> H[CatGif Component]
-     H --> I[Fetch Cat GIF Button]
-     I --> J[Display Cat GIF]
+flowchart TD
+    A[Start Application] --> B{ProductDetail Component}
+    B --> C[Display Product Info]
+    B --> D[Add to Cart Button]
+    D --> E{Cart Component}
+    E --> F[Display Cart Items]
+    E --> G[Empty Cart Message]
+    B --> H[CatGif Component]
+    H --> I[Fetch Cat GIF Button]
+    I --> J[Display Cat GIF]
 
-     //Styling for the flowchart this will change the text and background color. 
-     style A fill:#ffcd12,stroke:#000000,stroke-width:4px,color:black
-     style B fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
-     style E fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
-     style H fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
-     style I fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
-
+    style A fill:#ffcd12,stroke:#000000,stroke-width:4px,color:black
+    style B fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+    style E fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+    style H fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+    style I fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
 ```
