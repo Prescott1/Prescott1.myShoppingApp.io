@@ -6,6 +6,7 @@ This project is a React-based web application showcasing a product catalog with 
 
 - **Product Details**: View details of products including images, names, and prices.
 - **Add to Cart**: Ability to add products to a shopping cart stored in memory.
+- **CartTotal**: Displays the total of all iteams within the cart.
 - **Cat GIF**: Fetch and display a random orange cat GIF.
 
 ## Installation
@@ -14,21 +15,24 @@ To run this project, you will need to have Node.js and npm installed on your sys
 
 Once Node.js and npm are installed, you can clone the project and install its dependencies.
 
-```bash
+```sh
 git clone https://github.com/your-username/my-react-app.git
 cd my-react-app
 npm install
+```
 
 ## Resources that I used to help me create this project are:
-1.) https://react.dev/
-2.) https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
-3.) https://www.w3schools.com/REACT/DEFAULT.ASP
-4.) https://react-bootstrap.netlify.app/docs/components/cards/
-5.) Google
-6.) https://cataas.com/
-7.) https://mermaid.js.org/intro/
-8.) https://www.cat.com/en_US/products/new/equipment/drills.html
+1) https://react.dev/
+2) [Mozilla: Getting started with React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+3) https://www.w3schools.com/REACT/DEFAULT.ASP
+4) https://react-bootstrap.netlify.app/docs/components/cards/
+5) [Google](https://www.google.com)
+6) https://cataas.com/
+7) https://mermaid.js.org/intro/
+8) https://www.cat.com/en_US/products/new/equipment/drills.html
+
 ## Flowcart structure for this React App is:
+```mermaid
   flowchart TD
      A[Start Application] --> B{ProductDetail Component}
      B --> C[Display Product Info]
@@ -39,9 +43,12 @@ npm install
      B --> H[CatGif Component]
      H --> I[Fetch Cat GIF Button]
      I --> J[Display Cat GIF]
-  
-     style A fill:#f9f,stroke:#333,stroke-width:4px
-     style B fill:#bbf,stroke:#f66,stroke-width:2px
-     style E fill:#bbf,stroke:#f66,stroke-width:2px
-     style H fill:#bbf,stroke:#f66,stroke-width:2px
-     style I fill:#bbf,stroke:#f66,stroke-width:2px
+
+     //Styling for the flowchart this will change the text and background color. 
+     style A fill:#ffcd12,stroke:#000000,stroke-width:4px,color:black
+     style B fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style E fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style H fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style I fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+
+```
