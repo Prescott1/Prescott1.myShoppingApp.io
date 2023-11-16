@@ -17,7 +17,7 @@ Once Node.js and npm are installed, you can clone the project and install its de
 
 ```sh
 git clone https://github.com/Prescott1/myShoppingApp.git
-cd my-react-app
+cd cart-app
 npm install
 ```
 
