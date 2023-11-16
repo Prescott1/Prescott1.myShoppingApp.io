@@ -49,4 +49,10 @@ npm install
      style E fill:#bbf,stroke:#f66,stroke-width:2px
      style H fill:#bbf,stroke:#f66,stroke-width:2px
      style I fill:#bbf,stroke:#f66,stroke-width:2px
+     style A fill:#ffcd12,stroke:#000000,stroke-width:4px,color:black
+     style B fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style E fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style H fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+     style I fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
+
 ```
