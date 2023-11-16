@@ -32,7 +32,7 @@ npm install
 8) https://www.cat.com/en_US/products/new/equipment/drills.html
 
 ## Flowcart structure for this React App is:
-```merdaid
+```mermaid
   flowchart TD
      A[Start Application] --> B{ProductDetail Component}
      B --> C[Display Product Info]
