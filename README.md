@@ -43,12 +43,8 @@ npm install
      B --> H[CatGif Component]
      H --> I[Fetch Cat GIF Button]
      I --> J[Display Cat GIF]
-  
-     style A fill:#f9f,stroke:#333,stroke-width:4px
-     style B fill:#bbf,stroke:#f66,stroke-width:2px
-     style E fill:#bbf,stroke:#f66,stroke-width:2px
-     style H fill:#bbf,stroke:#f66,stroke-width:2px
-     style I fill:#bbf,stroke:#f66,stroke-width:2px
+
+     //Styling for the flowchart this will change the text and background color. 
      style A fill:#ffcd12,stroke:#000000,stroke-width:4px,color:black
      style B fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
      style E fill:#ffcd12,stroke:#000000,stroke-width:2px,color:black
